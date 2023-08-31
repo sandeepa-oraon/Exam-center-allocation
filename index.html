@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>EXAM CENTER</h1>
+    <label class="flex">
+      <div class="name-">Name</div>
+      <input type="text" id="name" class="name" placeholder="Enter your Name" />
+    </label>
+    <label class="flex">
+      <div class="email-">Email</div>
+      <input type="email" id="email" class="email" placeholder="abc@gmail.com" />
+    </label>
+
+    <div class="exist">
+      <button class="btn" onclick="allocateCenter()">Get Allocated</button>
+
+      <div class="alert" id="alert-danger">User already exist</div>
+      <div class="alert" id="alert-success">User Added</div>
+    </div>
+            
+  </div>
+
+  <div class="container2" id="container2">
+    <!-- <div class="users">
+      <div class="name2" id="name_user">
+        <div class="n" id="n_user">Name:</div>
+        <p class="pname" id="pname"></p>
+      </div>
+      <div class="email2" id="email_user">
+        <div class="n" id="n2">Email:</div>
+        <p class="pemail" id="pemail"></p>
+      </div>
+      <div class="center2" id="center2">
+        <div class="n" id="n3">Allocated Center:</div>
+        <p class="acenter" id="acenter"></p>
+      </div>
+    </div> -->
+  </div>
+
+  <script src="app.js" async defer></script>
+</body>
+
+</html>
+
